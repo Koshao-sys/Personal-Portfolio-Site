@@ -49,7 +49,7 @@ body {
   line-height: 52px;
 }
 
-.headline p {
+.headlineSec p {
   font-family: 'Inter', sans-serif;
   color: #172b4d;
   font-size: 20px;
@@ -70,7 +70,7 @@ body {
   top: 314px;
 }
 
-.headline {
+.headlineSec {
   display: flex;
   flex-direction: column;
   background-image: url("./Images//mobile-bg.svg");
