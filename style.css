@@ -8,12 +8,32 @@
   padding: 0 24px;
 }
 
+.toggle li {
+  list-style: none;
+}
+
+.hamburger {
+  cursor: pointer;
+  padding: 5px;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  background-color: #28352f;
+}
+
 .toolbar-title {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
   line-height: 28px;
+  padding-top: 13px;
+  color: #28352f;
+  text-decoration: none;
 }
 
 .toggle {
@@ -39,6 +59,9 @@ body {
   font-size: 40px;
   color: #172b4d;
   line-height: 52px;
+  padding-top: 30px;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 .headline-job {
@@ -47,6 +70,8 @@ body {
   font-size: 40px;
   color: #36b37e;
   line-height: 52px;
+  margin: 0;
+  padding-top: 0;
 }
 
 .headline p {
@@ -54,20 +79,8 @@ body {
   color: #172b4d;
   font-size: 20px;
   line-height: 28px;
-  padding: 24px 24px 24px;
-}
-
-.headline-desc {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
-  text-align: center;
-  width: 327px;
-  height: 164px;
-  left: 24px;
-  top: 314px;
+  padding: 15px 24px 24px 24px;
+  margin-bottom: 0;
 }
 
 .headline {
@@ -75,7 +88,6 @@ body {
   flex-direction: column;
   background-image: url("./Images//mobile-bg.svg");
   background-repeat: no-repeat;
-  height: 648px;
   width: 100%;
 }
 
@@ -84,7 +96,7 @@ body {
   width: 170.17px;
   height: 20px;
   padding-left: 115px;
-  margin-top: 50px;
+  margin-top: 30px;
   justify-content: space-between;
 }
 
