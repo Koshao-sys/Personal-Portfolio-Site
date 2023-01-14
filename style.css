@@ -90,13 +90,14 @@ body {
   background-image: url("./Images//mobile-bg.svg");
   background-repeat: no-repeat;
   width: 100%;
+  margin-bottom: -30px;
 }
 
 .socials {
   display: flex;
   width: 170.17px;
   height: 20px;
-  padding-left: 115px;
+  padding-left: 100px;
   margin-top: 30px;
   justify-content: space-between;
 }
@@ -108,6 +109,31 @@ body {
 button {
   border: 0;
   background-color: #fff;
+  /*padding-left: 167px;*/
+  padding-top: 50px;
+
+}
+
+.about-myself button {
+  border-radius: 4px;
+  color: #fff;
+  background-color: #36b37f;
+  align-self: center;
+  border-color: #36b37f;
+  font-family: 'Inter', sans-serif;
+  border: none;
+  font-weight: 500;
+  font-size: 17px;
+  padding: 12px;
+}
+
+.about-myself button:hover {
+  background-color: #36b37f;
+  box-shadow: 1px 2px #d0d9d4;
+}
+
+.about-myself button:active {
+  background-color: #008552;
 }
 
 .head-recent {
@@ -154,6 +180,8 @@ button {
   color: #3a4a42;
   font-size: 24px;
   font-weight: 600;
+  margin-top: 0;
+  padding-top: 0;
 }
 
 .about-myself a {
@@ -168,6 +196,18 @@ button {
   font-size: 17px;
   padding: 12px;
   text-decoration: none;
+}
+
+.section-bg01 {
+  position: relative;
+  top: 101px;
+  left: 212px;
+}
+
+.section-bg02 {
+  position: relative;
+  top: 291px;
+  left: -186px;
 }
 
 .works-inner ul {
@@ -209,7 +249,7 @@ button {
 }
 
 .works-inner {
-  padding: 16px;
+  padding: 0 16px 16px 16px;
   gap: 16px;
 }
 
