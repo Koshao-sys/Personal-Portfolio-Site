@@ -152,12 +152,6 @@ Example:
 - Twitter: [@twitterhandle](https://twitter.com/koshao)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/koshao)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/anonymous)
-- Twitter: [@twitterhandle](https://twitter.com/anonymous)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/anonymous)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
@@ -169,6 +163,7 @@ Example:
 - [ ] **Contact Page**
 - [ ] **Projects directory**
 - [ ] **Live chat**
+- [ ] **Contact Page**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -185,7 +180,7 @@ If you like this project hit me up on my email: kkoshao99@gmail.com or Twitter u
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 
-I would like to thank my coding partners for support an dthe great ideas shared.
+I would like to thank my coding partners for the support and the great ideas shared.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
