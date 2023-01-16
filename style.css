@@ -232,16 +232,16 @@ button {
 
 .works-inner ul {
   list-style: none;
-  display: flex;
-  flex-direction: row;
   justify-content: space-between;
   text-decoration: none;
-  padding-left: 0;
+  padding-bottom: 2px;
 }
 
 .works-inner li {
   text-decoration: none;
   list-style: none;
+  float: left;
+  padding: 2px;
 }
 
 .works-inner li a {
