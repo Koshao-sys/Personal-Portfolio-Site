@@ -240,8 +240,8 @@ button {
 .works-inner li {
   text-decoration: none;
   list-style: none;
-  float: left;
-  padding: 2px;
+  float: right;
+  padding: 4px;
 }
 
 .works-inner li a {
