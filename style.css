@@ -477,3 +477,13 @@ footer label {
   letter-spacing: 0em;
   text-align: center;
 }
+footer p{
+ align-items: center;
+ Font-family:'Inter';
+Font-style:'Regular';
+Font-size: 20px;
+Line-height: 32px;
+Line-height: 132%;
+Vertical-align: Top;
+color: #42526E;
+}
