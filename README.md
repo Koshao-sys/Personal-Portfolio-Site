@@ -55,6 +55,7 @@
 - **.gitignore file**
 - **Browsing to other Menus**
 - **Browsing to social links**
+- **Contact Form**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -160,10 +161,9 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **Contact Page**
+- [ ] **Web view**
 - [ ] **Projects directory**
 - [ ] **Live chat**
-- [ ] **Contact Page**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
