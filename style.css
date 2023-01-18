@@ -8,6 +8,12 @@
   padding: 0 24px;
 }
 
+form ul li {
+  list-style: none;
+  padding-bottom: 24px;
+  display: block;
+}
+
 .toggle li {
   list-style: none;
 }
@@ -48,10 +54,10 @@
 
 body {
   width: 375px !important;
-  height: 6715px;
   text-align: center;
   justify-content: space-around;
   background-color: #fff;
+  overflow-x: hidden;
 }
 
 .headline-name {
@@ -112,6 +118,26 @@ button {
   padding-top: 50px;
 }
 
+form button {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  padding: 12px;
+  gap: 10px;
+  width: 129px;
+  height: 48px;
+  background: #36b37e;
+  border-radius: 4px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 500;
+  font-family: 'Inter', sans-serif;
+  box-sizing: border-box;
+}
+
 .about-myself button {
   border-radius: 4px;
   color: #fff;
@@ -137,6 +163,15 @@ button {
   font-size: 17px;
   padding: 12px;
   margin-top: 17px;
+}
+
+form button:hover {
+  background-color: #36b37f;
+  box-shadow: 1px 2px #36b37f;
+}
+
+form button:enabled {
+  background-color: #36b37f;
 }
 
 .works-inner button:hover {
@@ -204,6 +239,17 @@ button {
   padding-top: 0;
 }
 
+footer p a {
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  line-height: 32px;
+  line-height: 132%;
+  vertical-align: top;
+  color: #42526e;
+  text-decoration: none;
+}
+
 .about-myself a {
   border-radius: 4px;
   color: #fff;
@@ -220,14 +266,21 @@ button {
 
 .section-bg01 {
   position: relative;
-  top: 101px;
-  left: 212px;
+  top: 99px;
+  left: 190px;
 }
 
 .section-bg02 {
   position: relative;
   top: 291px;
   left: -186px;
+}
+
+form ul {
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 0;
 }
 
 .works-inner ul {
@@ -281,6 +334,17 @@ button {
   padding-top: 60px;
 }
 
+form h2 {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0;
+  text-align: center;
+  color: #172b4d;
+}
+
 .about-myself h2 {
   font-weight: 700;
   font-size: 40px;
@@ -328,6 +392,15 @@ button {
   height: 100%;
 }
 
+.footer-socials li {
+  list-style: none;
+}
+
+.footer-socials li a {
+  text-decoration: none;
+  list-style: none;
+}
+
 .about-catalog p {
   font-weight: 600;
   font-size: 24px;
@@ -362,4 +435,82 @@ button {
   font-family: 'Inter', sans-serif;
   margin-right: 5px;
   display: flex;
+}
+
+form {
+  margin-left: 24px;
+  margin-right: 24px;
+  display: flex;
+  flex-direction: column;
+  width: 327px;
+}
+
+form input {
+  box-sizing: border-box;
+  background: #fff;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+  width: 327px;
+  height: 48px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  padding: 15px 16px 16px 15px;
+}
+
+form textarea {
+  width: 100%;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 12px 12px 12px 12px;
+  height: 114px;
+}
+
+footer {
+  margin-top: 46px;
+}
+
+.footer-img {
+  height: 131.70988202068884px;
+  width: 84.141111px;
+  left: 311px;
+  top: 6517.380859px;
+  border-radius: 0;
+  position: absolute;
+}
+
+.footer-img img {
+  left: 98.43%;
+  right: -97.72%;
+  top: 0.29%;
+  bottom: 0.21%;
+}
+
+footer label {
+  width: 375px;
+  height: 189px;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.footer-socials {
+  display: flex;
+  width: 170.17px;
+  height: 20px;
+  padding-left: 100px;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+
+.footer-mail {
+  position: absolute;
+  width: 375px;
+  height: 189px;
+  margin-bottom: 147px;
 }
