@@ -8,9 +8,10 @@
   padding: 0 24px;
 }
 
-form li {
-  display: flex;
+form ul li {
+  list-style: none;
   padding-bottom: 24px;
+  display: block;
 }
 
 .toggle li {
@@ -57,6 +58,7 @@ body {
   text-align: center;
   justify-content: space-around;
   background-color: #fff;
+  overflow-x: hidden;
 }
 
 .headline-name {
@@ -265,8 +267,8 @@ footer p a {
 
 .section-bg01 {
   position: relative;
-  top: 101px;
-  left: 212px;
+  top: 99px;
+  left: 190px;
 }
 
 .section-bg02 {
@@ -284,16 +286,16 @@ form ul {
 
 .works-inner ul {
   list-style: none;
+  display: flex;
+  flex-direction: row;
   justify-content: space-between;
   text-decoration: none;
-  padding-bottom: 2px;
+  padding-left: 0;
 }
 
 .works-inner li {
   text-decoration: none;
   list-style: none;
-  float: left;
-  padding: 2px;
 }
 
 .works-inner li a {
@@ -335,12 +337,12 @@ form ul {
 
 form h2 {
   font-family: 'Inter', sans-serif;
+  font-style: normal;
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
   letter-spacing: 0;
   text-align: center;
-  font-style: normal;
   color: #172b4d;
 }
 
@@ -389,6 +391,15 @@ form h2 {
 .languages img {
   width: 100%;
   height: 100%;
+}
+
+.footer-socials li {
+  list-style: none;
+}
+
+.footer-socials li a {
+  text-decoration: none;
+  list-style: none;
 }
 
 .about-catalog p {
@@ -453,6 +464,7 @@ form input {
 form textarea {
   width: 100%;
   border-radius: 4px;
+  box-sizing: border-box;
   padding: 12px 12px 12px 12px;
   height: 114px;
 }
@@ -463,8 +475,8 @@ footer {
 
 .footer-img {
   height: 131.70988202068884px;
-  width: 92.14111144635523px;
-  left: 315.351654px;
+  width: 84.141111px;
+  left: 311px;
   top: 6517.380859px;
   border-radius: 0;
   position: absolute;
@@ -486,6 +498,15 @@ footer label {
   line-height: 32px;
   letter-spacing: 0;
   text-align: center;
+}
+
+.footer-socials {
+  display: flex;
+  width: 170.17px;
+  height: 20px;
+  padding-left: 100px;
+  margin-top: 30px;
+  justify-content: space-between;
 }
 
 .footer-mail {
