@@ -238,6 +238,7 @@ form button {
   font-size: 17px;
   padding: 12px;
   margin-top: 17px;
+  transition: background-color 1.0s;
 }
 
 .about {
@@ -394,7 +395,7 @@ form button:enabled {
 }
 
 .works-inner button:hover {
-  background-color: #36b37f;
+  background-color: royalblue;
   box-shadow: 1px 2px #d0d9d4;
 }
 
@@ -574,6 +575,10 @@ form ul {
   background-color: #fff;
   padding: 18px;
   margin: 0;
+}
+
+.about-catalog .languages:hover img {
+  transform: scale(1.5);
 }
 
 .about-catalog .languages img {
