@@ -249,6 +249,7 @@ form button {
   gap: 58px;
 }
 
+
 .about-myself button {
   border-radius: 4px;
   color: #fff;
@@ -1101,6 +1102,12 @@ footer {
     flex: none;
     order: 0;
     flex-grow: 0;
+  }
+
+  #delay.toolbar-title:hover{
+    font-size: 36px;
+    transition-property: font-size;
+    transition-delay:4s;
   }
 
   .label h2 {
