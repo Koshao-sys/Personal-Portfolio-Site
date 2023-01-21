@@ -24,13 +24,12 @@
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
 - [❓ FAQ (OPTIONAL)](#faq)
+- [📝 License](#license)
 
 
 # 📖 [Portfolio Site] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**[your_project__name]** is a simple project with no complex coding that i am using to master all of the tools and best practices you learned about in previous steps.
+**Koshao's Portfolio Site** is a simple project with no complex coding that i am using to master all of the tools and best practices like documenting professionally, creating a responsive site on both mobile and Desktop.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -198,5 +197,13 @@ I would like to thank my coding partners for the support and the great ideas sha
 - **How do you ignore files in your repository?**
 
   - By adding there names to the .gitignore files.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
