@@ -19,6 +19,7 @@ nav {
   flex-direction: row;
   align-items: center;
   padding: 10px 12px;
+  transform: rotate(360deg);
 }
 
 .nav-left a {
