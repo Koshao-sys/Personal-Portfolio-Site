@@ -239,7 +239,7 @@ form button {
   font-size: 17px;
   padding: 12px;
   margin-top: 17px;
-  transition: background-color 1.0s;
+  transition: background-color 1s;
 }
 
 .about {
@@ -249,7 +249,6 @@ form button {
   padding: 64px 24px;
   gap: 58px;
 }
-
 
 .about-myself button {
   border-radius: 4px;
@@ -579,13 +578,13 @@ form ul {
   margin: 0;
 }
 
-.about-catalog .languages:hover img {
-  transform: scale(1.5);
-}
-
 .about-catalog .languages img {
   width: 100%;
   height: 100%;
+}
+
+.about-catalog .languages:hover img {
+  transform: scale(1.5);
 }
 
 .about-catalog .lang-stack {
@@ -1105,10 +1104,10 @@ footer {
     flex-grow: 0;
   }
 
-  #delay.toolbar-title:hover{
+  #delay.toolbar-title:hover {
     font-size: 36px;
     transition-property: font-size;
-    transition-delay:4s;
+    transition-delay: 4s;
   }
 
   .label h2 {
