@@ -29,7 +29,7 @@
 
 # 📖 [Portfolio Site] <a name="about-project"></a>
 
-**Koshao's Portfolio Site** is a simple project with no complex coding that i am using to master all of the tools and best practices like documenting professionally, creating a responsive site on both mobile and Desktop.
+**Koshao's Portfolio Site** is a simple project with no complex coding that i am using to master all of the tools and best practices like documenting professionally, creating a responsive site on both mobile and Desktop.See link to my project presentation https://www.loom.com/share/25341bbd58b24f3d98196be184d33acc
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -129,7 +129,7 @@ Example command:
 
 ### Deployment
 
-You can deploy this project using: Figma
+You can deploy this project using: Github Pages
 
 <!--
 Example:
