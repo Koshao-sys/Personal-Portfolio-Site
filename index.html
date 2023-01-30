@@ -5,37 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Koshao's Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./style.css" />
 </head>
 <body>
     <img src="./images/Header-llustration-desktop.svg" alt="" class="bg-image">
     <header>
-        <div class="container-toolbar">
-            <nav>
-                <div class="nav-left">
-                    <a href="#" class="toolbar-title"><marquee>Welcome</marquee></a>
-                </div>
-                <div class="hamburger">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                 </div>
-
-                <ul class="nav-menu">
-                    <li class="nav-item">
-                       <a href="#" class="nav-link">Home</a>
-                    </li>
-                    <li class="nav-item">
-                       <a href="#" class="nav-link">About</a>
-                    </li>
-                    <li class="nav-item">
-                       <a href="#" class="nav-link">Contact</a>
-                    </li>
-                 </ul>
-            </nav>
+        <div class="nav-left">
+            <a href="#" class="toolbar-title">Welcome</a>
         </div>
+        <img class="close-menu" src="./images/IconCancel.svg" alt="Close menu">
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+         </div>
+        <nav class="nav">
+        <ul>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        </nav>
     </header>
-    <section class="headline">
+    <section class="headline" id="portfolio">
         <div class="headline-name-job">
             <div>
                 <h1><span class="headline-name">Hey there. I'm Koshao.</span><br><span class="headline-job">I'm a software developer</span></h1>
@@ -156,7 +148,7 @@
         </div>
     </section>
     <img class="aboutme-desk" src="./images/illustration-aboutme-desktop.svg" alt="">
-    <section class="about">
+    <section class="about" id="about">
         <div class="about-me">
             <img src="./images/section-bg01.svg" alt="" class="section-bg01">
             <div>
@@ -217,7 +209,7 @@
             </div>
         </div>
     </section>
-    <section class="form-section">
+    <section class="form-section" id="contact">
         <div class="label">
             <h2>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
         </div>
@@ -257,6 +249,6 @@
             </div>
         </div>
     </footer>
-
+<script type="text/javascript" src="./script.js"></script>
 </body>
 </html>
