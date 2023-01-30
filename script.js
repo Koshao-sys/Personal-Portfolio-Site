@@ -2,7 +2,6 @@ const toggleNav = document.querySelector('.hamburger');
 const nav = document.querySelector('.nav');
 const closeMenu = document.querySelector('.close-menu');
 const closeLinks = document.querySelectorAll('.nav a');
-const closeLink = '';
 
 toggleNav.addEventListener('click', () => {
   nav.classList.toggle('open');
@@ -16,7 +15,7 @@ closeMenu.addEventListener('click', () => {
   toggleNav.style.display = 'block';
 });
 
-closeLinks.forEach(closeLink, () => {
+closeLinks.forEach((closeLink) => {
   closeLink.addEventListener('click', (e) => {
     nav.classList.remove('open');
     closeMenu.style.display = 'none';
