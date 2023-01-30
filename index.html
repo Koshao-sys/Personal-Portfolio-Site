@@ -5,35 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Koshao's Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./style.css" />
 </head>
 <body>
     <img src="./images/Header-llustration-desktop.svg" alt="" class="bg-image">
     <header>
-        <div class="container-toolbar">
+
+        <div class="hamburger" id="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+         </div>
+        <nav class="nav">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        </nav>
+
+        <!--<div class="container-toolbar">
             <nav>
                 <div class="nav-left">
                     <a href="#" class="toolbar-title"><marquee>Welcome</marquee></a>
                 </div>
-                <div class="hamburger">
+                <div class="hamburger" id="hamburger">
                     <span class="bar"></span>
                     <span class="bar"></span>
                     <span class="bar"></span>
                  </div>
-
-                <ul class="nav-menu">
-                    <li class="nav-item">
-                       <a href="#" class="nav-link">Home</a>
-                    </li>
-                    <li class="nav-item">
-                       <a href="#" class="nav-link">About</a>
-                    </li>
-                    <li class="nav-item">
-                       <a href="#" class="nav-link">Contact</a>
-                    </li>
-                 </ul>
+                 <div>
+                    <ul class="nav-menu">
+                        <li class="nav-item">
+                           <a href="#" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                           <a href="#" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                           <a href="#" class="nav-link">Contact</a>
+                        </li>
+                     </ul>
+                 </div>
             </nav>
-        </div>
+        </div>-->
     </header>
     <section class="headline">
         <div class="headline-name-job">
@@ -257,6 +272,6 @@
             </div>
         </div>
     </footer>
-
+<script type="text/javascript" src="./script.js"></script>
 </body>
 </html>
