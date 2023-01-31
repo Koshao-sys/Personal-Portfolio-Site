@@ -890,7 +890,15 @@ footer {
     flex-grow: 0;
     justify-content: center;
   }
+  /**************************************************/
+  .project-popup {
+    display: none;
+  }
 
+  .project-popup div[class="project-Container"] {
+    background-color:chartreuse;
+  }
+  /**************************************************/
   .recent-bar {
     display: none;
   }
