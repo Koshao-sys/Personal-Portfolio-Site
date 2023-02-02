@@ -117,17 +117,18 @@
         <div class="label">
             <h2>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
         </div>
-        <form action="https://formspree.io/f/xrgvbpnv" method="POST">
+        <form action="https://formspree.io/f/xrgvbpnv" method="POST" id="contactForm">
             <ul>
                 <li>
                     <input type="text" name="Full name" maxlength="30" placeholder="Full name" required/>
                 </li>
                 <li>
-                    <input type="email" name="Email address" placeholder="Email address" required/>
+                    <input type="email" name="Emailaddress" id="emailer" placeholder="Email address" required/>
                 </li>
                 <li>
                     <textarea name="Text Area" id="txtArea" maxlength="500" placeholder="Enter Text Here"required></textarea>
                 </li>
+                <small class="errmsg"></small>
                 <li>
                     <button type="submit">Get in touch</button>
                 </li>

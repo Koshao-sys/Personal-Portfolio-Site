@@ -8,6 +8,12 @@
   padding: 0 24px;
 }  */
 
+form ul {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
 .nav {
   height: 100%;
   width: 0;
@@ -384,6 +390,12 @@ body {
 .btn-disabled {
   border: 0;
   background-color: #fff;
+}
+
+.errmsg {
+  color: red;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
 }
 
 form button {
