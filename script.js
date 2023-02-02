@@ -199,3 +199,15 @@ const popmobiclose = document.querySelector('.project-img');
 popmobiclose.addEventListener('click', () => {
   popupWindow.style.display = 'none';
 });
+
+const form = document.getElementById('contactForm');
+const error = document.querySelector('.errmsg');
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+  const submitBtn = form.elements.Emailaddress;
+  if (submitBtn.value.toLowerCase() !== submitBtn.value) {
+    error.textContent = '!Failed.Email address should be in lower case!';
+  } else {
+    form.submit();
+  }
+});
